@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Omar</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
+    <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <script src="https://kit.fontawesome.com/5a5f94d100.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo.png" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#publication">publication</a></li>
+                    <!-- <li><a href="#">Portfolio</a></li> -->
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>IT System Engineer</p>
+                <h1>Hi, I'm <br><span>Ahmed Omar</span></h1>
+
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------------ABOUT----------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am an IT support & System Engineer. I am working as an IT Executive at Ananta companies (Corporate Office) since March 2021. I have more interest in Computer Networking, Also I completed my undergraduate Thesis work in the Networking field which is Published in a renowned Journal you can see that attached on my Publication panel. My dream and goal are to become a System Administrator in any reputed company. I am very good at googling, and a technology-friendly, quick learner. Also, I can handle my users very smartly and as quickly as possible. I completed my graduation of BSC in Computer Science Engineering from East West University in July 2020.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>IT Support and System Engineering</span><br>User IT related support troubleshoot software/HW/Network issue</li>
+                            <li><span>Server</span><br>Installing and maintaining windows servers</li>
+                            <li><span>Computer Networking</span><br>Configure IP (PC,Server,Printer, any kind of Network device)</li>
+                            <li><span>Web Design</span><br>Frontend website designing using HTML, CSS, JS</li>
+                            <li><span>ERP Software</span><br>Have experience in HRM Module of ERP system</li>
+                            <li><span>Programming Language</span><br>basic knowledge of C,C++</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Executive-IT</span><br>Working as an Executive of Department of IT at  <a style="color: #ababab;" href="https://www.ananta.com.bd/"> Ananta Companies (Corporate Office) </a></li>
+                            <p> <br><span style="color: #3aafa9;">Job Description</span>  <br> ⎯ Shifting and setup whole IT infrastructure of Head office from new building (LAN, Radio,
+                                Wireless). <br>
+                                ⎯ Windows Server. <br>
+                                ⎯ Install/setup new PC, Printer, Finger Punch/ Face Attendance Machine, Wi-Fi Router etc. <br>
+                                ⎯ To ensure PC Troubleshooting (any kind of issue). <br>
+                                ⎯ Provide Instant IT support to end users. <br>
+                                ⎯ Also provide support to end users remotely (VNC/Any Desk/Team Viewer). <br>
+                                ⎯ Hardware check/replace/repair as per need. <br>
+                                ⎯ Maintain ANANTA website. <br>
+                                ⎯ ERP software support (HRM Module). <br>
+                                ⎯ Maintain and setup corporate mail (Microsoft Outlook) <br>
+                                ⎯ Provide support for Smartphone/Email/Viber any software issue. <br>
+                                ⎯ Support to maintain Attendance Device. (Finger/Face/Card, Door access machine). <br>
+                                ⎯ Support to maintain Printer, Router etc. <br>
+                                ⎯ Maintain CCTV installation, configuration and maintenance. <br>
+                                ⎯ Maintain online UPS, UPS.</p>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Science</span><br>BSC in CSE from East West University 2020 <br> CGPA: 3.07 out of 4</li>
+                            <li><span>Higher Secondary School Certificate</span><br>HSC from Government Shahid Bulbul College, Pabna 2015 <br> GPA: 4.17 out of 5</li>
+                            <li><span>Secondary School Certificate</span><br>SSC from Radhanagar Majumdar Academy, Pabna 2013 <br> GPA: 5.00 out of 5</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------------------------------------publication------------------------------------------>
+    <div id="publication">
+        <div class="container">
+            <h1 class="sub-title">My publication</h1>
+            <div class="publication-list">
+                <div> 
+                    <i class="fa-solid fa-book"></i>
+                    <h2>Journal Publication</h2>
+                    <a class="sai" href="https://thesai.org/Publications/ViewPaper?Volume=11&Issue=12&Code=IJACSA&SerialNo=68"><img style="border-radius: 15px;" src="image/pulication.png" alt=""></a>
+                    <p>
+                        An Effective Solution to Count-to-Infinity Problem for both Complex and Linear Sub-Networks
+                        <br> Article Published in International Journal of Advanced Computer Science and Applications(IJACSA), Volume 11 Issue 12, 2020. · Dec 15, 2020</p>
+
+                        <a href="https://thesai.org/Publications/ViewPaper?Volume=11&Issue=12&Code=IJACSA&SerialNo=68" class="btn">Visit Journal</a>
+               </div>  
+            </div>
+        </div>
+    </div> 
+    <!-- -------------------------Contact-------------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa fa-paper-plane" aria-hidden="true"></i> omeruday@gmail.com</p>
+                    <p> <i class="fa fa-phone" aria-hidden="true"></i> +8801723430714</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/futureless.omar"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/ahmed-omar-a06711149/"><i class="fa-brands fa-linkedin"></i></i></a>
+                        <a href="https://github.com/omaruday015?tab=repositories"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="image/CV.pdf" download class="btn-cv">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn-cv">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Omar. </p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+ 
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxchMu0pMilfRc7QJ-maWvSqCvhRbxpcDwksx0G9FTXmYqe7AgR8mLTaZwb7UqypGNT/exec'
+        const form = document.forms['submit-to-google-sheet']
+        // const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout (function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
